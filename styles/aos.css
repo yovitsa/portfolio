@@ -1,0 +1,27 @@
+[data-aos] {
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+  }
+  
+  [data-aos="fade-up"] {
+    transform: translate3d(0, 100px, 0);
+    opacity: 0;
+  }
+  
+  [data-aos="fade-up"].aos-animate {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  
+  [data-aos="fade-down"] {
+    transform: translate3d(0, -100px, 0);
+    opacity: 0;
+  }
+  
+  [data-aos="fade-down"].aos-animate {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  
+  /* More animations like zoom-in, flip, slide, etc. */
