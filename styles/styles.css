@@ -421,7 +421,7 @@ footer {
     z-index: 1; /* Place it above the hero background but below the content */
     padding: 20px;
     font-family: "Courier New", monospace; /* Monospace font for terminal look */
-    font-size: 18px;
+    font-size: 30px;
     color: #00ff00; /* Green terminal text */
     overflow: hidden;
     white-space: pre-wrap; /* Preserve line breaks and spaces */
