@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,24 +9,25 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles/styles.css">
+  <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+  <!-- Ubuntu Mono Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 </head>
-<body class="resume-container">  <!-- ✅ Added class for custom styling -->
-
+<body class="resume-container">
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="index.html">My Portfolio</a>
+      <a class="navbar-brand" href="{{ url_for('home') }}">Yovitsa Kuzmanovic</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html#projects">Projects</a>
+            <a class="nav-link" href="{{ url_for('home') }}#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="resume.html">Resume</a>
+            <a class="nav-link" href="{{ url_for('resume') }}">Resume</a>
           </li>
         </ul>
       </div>
@@ -32,12 +35,12 @@
   </nav>
 
   <!-- Resume Section -->
-  <section class="resume-content">  <!-- ✅ Wrapped content in a styled div -->
+  <section class="resume-content">
     <h2>Yovitsa Kuzmanovic</h2>
     <div class="text-center">
-      <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume</a>
+      <a href="{{ url_for('static', filename='resume.pdf') }}" class="btn btn-primary" download>Download Resume</a>
     </div>
-    <iframe src="assets/resume.pdf" width="100%" height="600px" class="mt-4"></iframe>
+    <iframe src="{{ url_for('static', filename='resume.pdf') }}" width="100%" height="600px" class="mt-4"></iframe>
   </section>
 
   <!-- Footer -->
