@@ -1,11 +1,11 @@
 
 
 
- /* Global Styles */
+
 body {
-    font-family: 'Ubuntu Mono', monospace; /* Use Ubuntu Mono font */
-    background-color: #300a24; /* Dark background similar to Ubuntu CLI */
-    color: #ffffff; /* White text */
+    font-family: 'Ubuntu Mono', monospace; 
+    background-color: #300a24; 
+    color: #ffffff; 
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #00ff00; /* Green text for terminal-like feel */
+    color: #00ff00; 
     position: relative;
     overflow: hidden;
 }
@@ -43,7 +43,7 @@ body {
 .hero-buttons {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between buttons */
+    gap: 20px; 
     margin-top: 30px;
 }
 
@@ -55,9 +55,9 @@ body {
     padding: 15px 25px;
     font-size: 16px;
     font-weight: bold;
-    color: #ffffff; /* White text */
+    color: #ffffff; 
     border: none;
-    border-radius: 5px; /* Slightly rounded corners */
+    border-radius: 5px; 
     text-decoration: none;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
@@ -66,7 +66,7 @@ body {
 
 /* Resume Button - Book Animation */
 .btn-resume {
-    background: #4e2779; /* Purple */
+    background: #4e2779;
 }
 
 .btn-resume .icon {
@@ -84,7 +84,7 @@ body {
 
 /* GitHub Button - Brain Animation */
 .btn-github {
-    background: #333333; /* Dark gray */
+    background: #333333; 
 }
 
 .btn-github .icon {
@@ -102,7 +102,7 @@ body {
 
 /* LinkedIn Button - Professional Animation */
 .btn-linkedin {
-    background: #0077b5; /* LinkedIn blue */
+    background: #0077b5; 
 }
 
 .btn-linkedin .icon {
@@ -123,7 +123,7 @@ body {
 
 /* Projects Button - Rocket Animation */
 .btn-projects {
-    background: #ff416c; /* Pink */
+    background: #ff416c; 
 }
 
 .btn-projects .icon {
@@ -158,8 +158,8 @@ body {
 /* Footer */
 footer {
     margin-top: 20px;
-    background-color: #1e1e1e; /* Dark footer */
-    color: #ffffff; /* White text */
+    background-color: #1e1e1e; 
+    color: #ffffff; 
     padding: 20px 0;
     text-align: center;
 }
@@ -172,7 +172,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1; /* Below the hero content but above the background */
+    z-index: 1; 
 }
 .terminal-animation {
     position: absolute;
@@ -180,18 +180,18 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black background */
-    z-index: 1; /* Place it above the hero background but below the content */
+    background: rgba(0, 0, 0, 0.3); 
+    z-index: 1;
     padding: 20px;
-    font-family: "Ubuntu Mono", monospace; /* Monospace font for terminal look */
+    font-family: "Ubuntu Mono", monospace; 
     font-size: 30px;
-    color: #00ff00; /* Green terminal text */
+    color: #00ff00; 
     overflow: hidden;
-    white-space: pre-wrap; /* Preserve line breaks and spaces */
+    white-space: pre-wrap; 
 }
 .hero-content {
     position: relative;
-    z-index: 2; /* Place it above the terminal animation */
+    z-index: 2; 
 }
 /* Blinking Cursor Effect */
 #terminal::after {
@@ -222,8 +222,8 @@ footer {
 
 /* Resume Page Styles */
 .resume-container {
-    background-color: #300a24; /* Dark background */
-    color: #ffffff; /* White text */
+    background-color: #300a24; 
+    color: #ffffff; 
     padding: 20px;
 }
 
@@ -231,19 +231,19 @@ footer {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #1e1e1e; /* Dark container */
+    background-color: #1e1e1e; 
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .resume-content h2 {
-    color: #00ff00; /* Green heading */
+    color: #00ff00; 
     text-align: center;
     margin-bottom: 20px;
 }
 
 .resume-content .btn-primary {
-    background-color: #4e2779; /* Purple button */
+    background-color: #4e2779;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -252,7 +252,7 @@ footer {
 }
 
 .resume-content .btn-primary:hover {
-    background-color: #6a11cb; /* Lighter purple on hover */
+    background-color: #6a11cb; 
 }
 
 .resume-content iframe {
