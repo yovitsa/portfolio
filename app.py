@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 users = {
-    "abc": "password123"
+    # use a dummy user here for testing
 }
 
 # Home Page
@@ -31,7 +31,7 @@ def login():
         if username in users and users[username] == password:
             session['username'] = username  # Store username in session
             flash('Login successful!', 'success')
-            return redirect(url_for('home'))  # Redirect to home (index.html)
+            return redirect(url_for('home'))  
         else:
             flash('Invalid username or password', 'error')
 
@@ -40,11 +40,11 @@ def login():
 @app.route('/dashboard')
 def dashboard():
     if 'username' in session:  # Check if user is logged in
-        return redirect(url_for('home'))  # Redirect to home (index.html)
+        return redirect(url_for('home'))  
     else:
         flash('You need to log in first', 'error')
         return redirect(url_for('login'))
-# Logout
+
 @app.route('/logout')
 def logout():
     session.pop('username', None)  
