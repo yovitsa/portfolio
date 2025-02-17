@@ -74,7 +74,7 @@ For the coding part of the assigment, I have used HTML, CSS and JS for frontend 
 
 6. Now my application is hosted loccaly as shown on image below: 
 
-    [gttps-localhostimag] 
+    ![local-hhtps](/static/images/https_caddy.png) 
 
  
 
