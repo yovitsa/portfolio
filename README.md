@@ -267,7 +267,7 @@ After this we need to run the following commands to reload and start/enable guni
 
         `sudo systemctl status caddy`
 
-18. Access the [domain](yovitsa-kuzmanovic.site) 
+18. Access the [domain](https://yovitsa-kuzmanovic.site). 
 
 19. The final result should look like this:
 
