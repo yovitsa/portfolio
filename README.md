@@ -20,7 +20,7 @@ This assignemnt has 3 parts.
 
  In Part 3 i ahve deployed my portfolio webiste using AWS and caddy. You can see my portfolio webiste on the link below. 
 
- [Jovica's Portfolio](yovitsa-kuzmanovic.site) 
+[Jovica's Portfolio](yovitsa-kuzmanovic.site) 
 
  
 
@@ -54,9 +54,9 @@ For the coding part of the assigment, I have used HTML, CSS and JS for frontend 
 
 2. After downloading the installation file, nagvigate to th your C drive and create a folder named 'Caddy'. 
 
-3. Move the installation file to your newly created folder 'Caddy'. As this is binaryd filw download, yo do not have to actually install it. After moving the file to `C:Caddy/` run the command `caddy version` in your terminal and you should see the output similar to the image below: 
+3. Move the installation file to your newly created folder 'Caddy'. As this is binary file download, yo do not have to actually install it. After moving the file to `C:Caddy/` run the command `caddy version` in your terminal and you should see the output similar to the image below: 
 
-    [Image] 
+    ![Caddy works](/portfolio/static/images/caddy%20version.png) 
 
 4. Create and configure your Caddy file, your Caddyfile configuration should look similar to the below image. `root` is getting everything and serving everything from the location where I have stored my application directory. I have also configred `reverse_proxy` for localhost on the port 5000, this will route all reuest to prot 5000, this is default flask port, as my application is using flask for backend. 
 
