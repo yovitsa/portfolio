@@ -126,7 +126,7 @@ Step 1 Launch AWS EC2 Instance:
 
 Your output show be similar to the image below: 
 
-        ![image caddy running on linux](/static/images/linux_caddy_works.png) 
+![image caddy running on linux](/static/images/linux_caddy_works.png) 
 
 5. I have used sftp to transfer my application direcroty from my local machine to my aws instance. First I have connected sftp to myinstace by using the command below: 
 
