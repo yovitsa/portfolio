@@ -72,7 +72,7 @@ For the coding part of the assigment, I have used HTML, CSS and JS for frontend 
 
  
 
-6. Now my application is hosted loccaly as shown on image below: 
+6. Now my application is hosted locally as shown on image below: 
 
     ![local-hhtps](/static/images/https_caddy.png) 
 
@@ -126,7 +126,7 @@ Step 1 Launch AWS EC2 Instance:
 
 Your output show be similar to the image below: 
 
-        [image caddy running on linux] 
+        ![image caddy running on linux](/static/images/linux_caddy_works.png) 
 
 5. I have used sftp to transfer my application direcroty from my local machine to my aws instance. First I have connected sftp to myinstace by using the command below: 
 
