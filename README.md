@@ -56,7 +56,7 @@ For the coding part of the assigment, I have used HTML, CSS and JS for frontend 
 
 3. Move the installation file to your newly created folder 'Caddy'. As this is binary file download, yo do not have to actually install it. After moving the file to `C:Caddy/` run the command `caddy version` in your terminal and you should see the output similar to the image below: 
 
-    ![Caddy works](/portfolio/static/images/caddy%20version.png) 
+    ![Caddy works](portfolio/static/images/caddy%20version.png) 
 
 4. Create and configure your Caddy file, your Caddyfile configuration should look similar to the below image. `root` is getting everything and serving everything from the location where I have stored my application directory. I have also configred `reverse_proxy` for localhost on the port 5000, this will route all reuest to prot 5000, this is default flask port, as my application is using flask for backend. 
 
