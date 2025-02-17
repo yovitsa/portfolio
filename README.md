@@ -188,13 +188,7 @@ And then move the application directory to `www` directory
 
         `gunicorn -w 3 -b 127.0.0.1:8000 app:app` 
 
- 
-
-If everything went well you should ee the output similar to the image below: 
-
-    [Image] 
-
- 
+  
 
 12. Create a systemd service for Guncicorn 
 
@@ -275,7 +269,9 @@ After this we need to run the following commands to reload and start/enable guni
 
 18. Access the [domain](yovitsa-kuzmanovic.site) 
 
-19. The final result should look like this
+19. The final result should look like this:
+
+![final](/static/images/final.png)
 
 
 
