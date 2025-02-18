@@ -10,33 +10,33 @@
 
 ## Introduction 
 
-This assignemnt has 3 parts. 
+This assignment has 3 parts. 
 
- Part 1 is the [video presenatation](https://www.youtube.com/watch?v=_VlP2XQntnw) that you may watch on the link posted in Part 1 section 
+ Part 1 is the [video presentation](https://www.youtube.com/watch?v=_VlP2XQntnw) that you may watch on the link posted in Part 1 section 
 
  
 
- In Part 2 I have deployed my webiste locaaly usign caddy.  
+ In Part 2, I have deployed my website locally using caddy.  
 
- In Part 3 i ahve deployed my portfolio webiste using AWS and caddy. You can see my portfolio webiste on the link below. [Jovica's Portfolio](https://yovitsa-kuzmanovic.site) 
+ In Part 3, I have deployed my portfolio website using AWS and caddy. You can see my portfolio website on the link below. [Jovica's Portfolio](https://yovitsa-kuzmanovic.site) 
 
  
 
 ### Part 1 
 
-Click on  the link below and you can watch my video presenatation for Part 1 
+Click on  the link below and you can watch my video presentation for Part 1 
 
-[Assignemnt 1 Video Presenatation](https://www.youtube.com/watch?v=_VlP2XQntnw) 
+[Assignment 1 Video Presentation](https://www.youtube.com/watch?v=_VlP2XQntnw) 
 
  
 
 ### Part 2 
 
-In this part of the assigment I have installed Caddy on my local(Windows) machine,  built a personal portfolio webiste and deployed that webiste locally. 
+In this part of the assignment I have installed Caddy on my local(Windows) machine,  built a personal portfolio website and deployed that website locally. 
 
  
 
-For the coding part of the assigment, I have used HTML, CSS and JS for frontend and Flask for my backend functionality. 
+For the coding part of the assignment, I have used HTML, CSS and JS for frontend and Flask for my backend functionality. 
 
  
 
@@ -44,19 +44,19 @@ For the coding part of the assigment, I have used HTML, CSS and JS for frontend 
 
  
 
-1. First we need to download caddy officall version from the officall website:      
+1. First we need to download caddy official version from the official website:      
 
     [Caddy Windows Download Installation](https://caddyserver.com/download) 
 
  
 
-2. After downloading the installation file, nagvigate to th your C drive and create a folder named 'Caddy'. 
+2. After downloading the installation file, navigate to the C drive and create a folder named 'Caddy'. 
 
-3. Move the installation file to your newly created folder 'Caddy'. As this is binary file download, yo do not have to actually install it. After moving the file to `C:Caddy/` run the command `caddy version` in your terminal and you should see the output similar to the image below: 
+3. Move the installation file to your newly created folder 'Caddy'. As this is binary file download, you do not have to actually install it. After moving the file to `C:Caddy/` run the command `caddy version` in your terminal and you should see the output similar to the image below: 
 
     ![Caddy works](/static/images/caddy%20version.png) 
 
-4. Create and configure your Caddy file, your Caddyfile configuration should look similar to the below image. `root` is getting everything and serving everything from the location where I have stored my application directory. I have also configred `reverse_proxy` for localhost on the port 5000, this will route all reuest to prot 5000, this is default flask port, as my application is using flask for backend. 
+4. Create and configure your Caddy file, your Caddyfile configuration should look similar to the below image. `root` is getting everything and serving everything from the location where I have stored my application directory. I have also configured `reverse_proxy` for localhost on the port 5000, this will route all request to port 5000, this is default flask port, as my application is using flask for backend. 
 
     ![caddy file](/static/images/image_w_c_file.png) 
 
@@ -72,13 +72,13 @@ For the coding part of the assigment, I have used HTML, CSS and JS for frontend 
 
 6. Now my application is hosted locally as shown on image below: 
 
-    ![local-hhtps](/static/images/https_caddy.png) 
+    ![local-https](/static/images/https_caddy.png) 
 
  
 
 ### Part 3 
 
-In this part I have deployed my webiste using AWS and caddy, to deploy my flask backend logic I have used [gunicorn](https://docs.gunicorn.org/en/stable/).  
+In this part I have deployed my website using AWS and caddy, to deploy my flask backend logic I have used [gunicorn](https://docs.gunicorn.org/en/stable/).  
 
  
 
@@ -100,7 +100,7 @@ Step 1 Launch AWS EC2 Instance:
 
         4. Security Group: Check ports 80, 443, and 22. 
 
-        5.In the addtional configuration add the code form the image below to install `caddy`. THis way caddy will be already installed when I run my instance 
+        5.In the additional configuration add the code from the image below to install `caddy`. This way caddy will be already installed when I run my instance 
 
      
 
@@ -114,7 +114,7 @@ Step 1 Launch AWS EC2 Instance:
 
  
 
-4. Check if caddy is installe running the command below: 
+4. Check if caddy is installed and running by using the command below: 
 
  
 
@@ -126,7 +126,7 @@ Your output show be similar to the image below:
 
 ![image caddy running on linux](/static/images/linux_caddy_works.png) 
 
-5. I have used sftp to transfer my application direcroty from my local machine to my aws instance. First I have connected sftp to myinstace by using the command below: 
+5. I have used sftp to transfer my application directory from my local machine to my aws instance. First I have connected sftp to my instace by using the command below: 
 
  
 
@@ -134,7 +134,7 @@ Your output show be similar to the image below:
 
  
 
-After connecting to my EC2 isnance, I have transffered my files to my EC2 by using  the command below: 
+After connecting to my EC2 instance, I have transferred my files to my EC2 by using  the command below: 
 
  
 
@@ -142,7 +142,7 @@ After connecting to my EC2 isnance, I have transffered my files to my EC2 by usi
 
  
 
-6. After uploading and unziping the application directory, I have used unzip for that. I have used the command `sudo apt install unzip` and then  
+6. After uploading and unzipping the application directory, I have used unzip for that. I have used the command `sudo apt install unzip` and then  
 
         `unzip <directory-name>` 
 
@@ -152,7 +152,7 @@ After connecting to my EC2 isnance, I have transffered my files to my EC2 by usi
 
 And then move the application directory to `www` directory
 
-8. Move to the application directory and install Pyhton by usign the command 
+8. Move to the application directory and install Python by using the command 
 
       
 
@@ -160,11 +160,11 @@ And then move the application directory to `www` directory
 
  
 
-9. Create a python virtual enviorment by running the command 
+9. Create a python virtual environment by running the command 
 
  
 
-        `python3 pip -venv venv` 
+        `python3 -m -venv venv` 
 
      
 
@@ -176,11 +176,11 @@ And then move the application directory to `www` directory
 
      
 
-        `pip install -R requrments.txt` 
+        `pip install -R requirements.txt` 
 
  
 
-11. Start gunicorn by running the command below, 8000 is theh default gunicorn port. GUnicorn is used here so caddy can forward revers proxy request to my flask application: 
+11. Start gunicorn by running the command below, 8000 is the default gunicorn port. Gnicorn is used here so caddy can forward reverse proxy request to my flask application: 
 
  
 
@@ -192,7 +192,7 @@ And then move the application directory to `www` directory
 
      
 
-    Run the folwoing command to create a service file: 
+    Run the following command to create a service file: 
 
  
 
@@ -250,18 +250,20 @@ After this we need to run the following commands to reload and start/enable guni
 
  
 
-13. After purchansing domain I used Route 53 in AWS to configure the dns settings for my domain. Here is more information about [Route 53](https://docs.aws.amazon.com/route53/) 
+13. After purchasing domain I used Route 53 in AWS to configure the DNS settings for my domain. Here is more information about [Route 53](https://docs.aws.amazon.com/route53/) 
 
  
 
 14. Edit the Caddyfile which is located at `/etc/caddy/Caddyfile`
+Below is an example of a Caddyfile:
 
-15. Caddyfile file configuration file.
+[Caddyfile configuration IMAGE](/static/images/CADDYFILE.png) 
+
 16. Run the command to restart caddy
 
         `sudo systemctl restart caddy`
 
-17. Check the status of the caddy and ensure that everything works well"
+17. Check the status of the caddy and ensure that everything works well.
 
         `sudo systemctl status caddy`
 
