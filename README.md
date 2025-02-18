@@ -18,7 +18,7 @@ This assignemnt has 3 parts.
 
  In Part 2 I have deployed my webiste locaaly usign caddy.  
 
- In Part 3 i ahve deployed my portfolio webiste using AWS and caddy. You can see my portfolio webiste on the link below. [Jovica's Portfolio](yovitsa-kuzmanovic.site) 
+ In Part 3 i ahve deployed my portfolio webiste using AWS and caddy. You can see my portfolio webiste on the link below. [Jovica's Portfolio](https://yovitsa-kuzmanovic.site) 
 
  
 
