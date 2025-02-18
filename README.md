@@ -106,7 +106,7 @@ Step 1 Launch AWS EC2 Instance:
 
 I have add the commands below in the additional coniguration, when seting up the EC2 instances, this will install Caddy on my EC2 instance.
 
-[caddy](/static/images/yaml.png)
+![caddy](/static/images/yaml.png)
 
 3. Run the command below to start caddy and enable it on start of your system: 
 
