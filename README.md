@@ -26,7 +26,7 @@ This assignemnt has 3 parts.
 
 Click on  the link below and you can watch my video presenatation for Part 1 
 
-    [Assignemnt 1 Video Presenatation](https://www.youtube.com/watch?v=_VlP2XQntnw) 
+[Assignemnt 1 Video Presenatation](https://www.youtube.com/watch?v=_VlP2XQntnw) 
 
  
 
