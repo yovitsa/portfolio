@@ -261,7 +261,7 @@ After this we need to run the following commands to reload and start/enable guni
 14. Edit the Caddyfile which is located at `/etc/caddy/Caddyfile`
 Below is an example of a Caddyfile:
 
-![Caddyfile configuration IMAGE](/static/images/CADDYFILE.png) 
+![Caddyfile configuration IMAGE](/static/images/caddyFile.jpg) 
 
 16. Run the command to restart caddy
 
