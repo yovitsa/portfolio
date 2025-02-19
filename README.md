@@ -226,9 +226,9 @@ And then move the application directory to `www` directory
 
         Group=ubuntu 
 
-        WorkingDirectory=/home/ubuntu/your-portfolio 
+        WorkingDirectory=/home/ubuntu/portfolio 
 
-        ExecStart=/home/ubuntu/your-portfolio/venv/bin/gunicorn -w 3 -b 127.0.0.1:8000 app:app 
+        ExecStart=/home/ubuntu/portfolio/venv/bin/gunicorn -w 3 -b 127.0.0.1:8000 app:app 
 
  
 
