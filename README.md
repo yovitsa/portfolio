@@ -182,7 +182,9 @@ And then move the application directory to `www` directory
 
  
 
-11. Start gunicorn by running the command below, 8000 is the default gunicorn port. Gnicorn is used here so caddy can forward reverse proxy request to my flask application: 
+
+12. Start gunicorn by running the command below, 8000 is the default gunicorn port. Gnicorn is used here so caddy can forward reverse proxy request to my flask application:
+** Gunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX. It's a pre-fork worker model. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy. ** 
 
  
 
@@ -190,7 +192,7 @@ And then move the application directory to `www` directory
 
   
 
-12. Create a systemd service for Guncicorn 
+14. Create a systemd service for Guncicorn 
 
      
 
